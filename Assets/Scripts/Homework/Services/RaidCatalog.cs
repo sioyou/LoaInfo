@@ -12,6 +12,10 @@ namespace LoaInfo.Homework
         /// <summary>앱 내장 기본값. 원격/캐시 로드 실패 시 사용.</summary>
         static readonly RaidInfo[] BuiltIn =
         {
+            R("belgardin_nm", "belgardin", "벨가르딘", "나이트메어", 1780),
+            R("belgardin_hard", "belgardin", "벨가르딘", "하드", 1770),
+            R("belgardin_normal", "belgardin", "벨가르딘", "노말", 1750),
+
             R("serka_nm", "serka", "세르카", "나이트메어", 1740),
             R("serka_hard", "serka", "세르카", "하드", 1730),
             R("serka_normal", "serka", "세르카", "노말", 1710),

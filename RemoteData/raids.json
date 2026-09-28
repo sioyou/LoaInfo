@@ -2,6 +2,10 @@
   "version": 1,
   "updatedAt": "2026-09-28",
   "raids": [
+    { "id": "belgardin_nm", "group": "belgardin", "name": "벨가르딘", "difficulty": "나이트메어", "minItemLevel": 1780 },
+    { "id": "belgardin_hard", "group": "belgardin", "name": "벨가르딘", "difficulty": "하드", "minItemLevel": 1770 },
+    { "id": "belgardin_normal", "group": "belgardin", "name": "벨가르딘", "difficulty": "노말", "minItemLevel": 1750 },
+
     { "id": "serka_nm", "group": "serka", "name": "세르카", "difficulty": "나이트메어", "minItemLevel": 1740 },
     { "id": "serka_hard", "group": "serka", "name": "세르카", "difficulty": "하드", "minItemLevel": 1730 },
     { "id": "serka_normal", "group": "serka", "name": "세르카", "difficulty": "노말", "minItemLevel": 1710 },
