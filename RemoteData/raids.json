@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-28",
+  "raids": [
+    { "id": "serka_nm", "group": "serka", "name": "세르카", "difficulty": "나이트메어", "minItemLevel": 1740 },
+    { "id": "serka_hard", "group": "serka", "name": "세르카", "difficulty": "하드", "minItemLevel": 1730 },
+    { "id": "serka_normal", "group": "serka", "name": "세르카", "difficulty": "노말", "minItemLevel": 1710 },
+    { "id": "serka_single", "group": "serka", "name": "세르카", "difficulty": "싱글", "minItemLevel": 1710 },
+
+    { "id": "cathedral_3", "group": "cathedral", "name": "지평의 성당", "difficulty": "3단계", "minItemLevel": 1750 },
+    { "id": "cathedral_2", "group": "cathedral", "name": "지평의 성당", "difficulty": "2단계", "minItemLevel": 1720 },
+    { "id": "cathedral_1", "group": "cathedral", "name": "지평의 성당", "difficulty": "1단계", "minItemLevel": 1700 },
+    { "id": "cathedral_single", "group": "cathedral", "name": "지평의 성당", "difficulty": "싱글", "minItemLevel": 1700 },
+
+    { "id": "kazeros_finale_hard", "group": "kazeros_finale", "name": "종막: 최후의 날", "difficulty": "하드", "minItemLevel": 1730 },
+    { "id": "kazeros_finale_normal", "group": "kazeros_finale", "name": "종막: 최후의 날", "difficulty": "노말", "minItemLevel": 1710 },
+    { "id": "kazeros_finale_single", "group": "kazeros_finale", "name": "종막: 최후의 날", "difficulty": "싱글", "minItemLevel": 1710 },
+
+    { "id": "kazeros_act4_hard", "group": "kazeros_act4", "name": "4막: 파멸의 성채", "difficulty": "하드", "minItemLevel": 1720 },
+    { "id": "kazeros_act4_normal", "group": "kazeros_act4", "name": "4막: 파멸의 성채", "difficulty": "노말", "minItemLevel": 1700 },
+    { "id": "kazeros_act4_single", "group": "kazeros_act4", "name": "4막: 파멸의 성채", "difficulty": "싱글", "minItemLevel": 1700 }
+  ]
+}
