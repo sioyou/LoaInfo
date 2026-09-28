@@ -59,7 +59,8 @@ namespace LoaInfo.Homework
             if (!HasValidUrl)
                 return (false, 0, "레이드 원격 URL 미설정");
 
-            // raw.githubusercontent.com CDN 캐시(약 5분) 우회
+            // 기기/중간 프록시 캐시 방지용. raw.githubusercontent.com CDN 자체는 쿼리를 무시하므로
+            // 푸시 후 앱 반영까지 최대 약 5분 걸릴 수 있음.
             var url = $"{RemoteUrl}?t={DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
             using var req = UnityWebRequest.Get(url);
             req.timeout = TimeoutSeconds;
