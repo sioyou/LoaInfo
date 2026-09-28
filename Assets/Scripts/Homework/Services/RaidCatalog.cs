@@ -45,10 +45,16 @@ namespace LoaInfo.Homework
                 MinItemLevel = lvl
             };
 
+        /// <summary>내장 목록 버전. RemoteData/raids.json의 version과 맞춰 관리.</summary>
+        public const int BuiltInVersion = 2;
+
         static RaidInfo[] All = BuiltIn;
 
+        /// <summary>현재 적용된 목록의 버전 (이보다 낮은 원격/캐시는 무시)</summary>
+        public static int CurrentVersion { get; private set; } = BuiltInVersion;
+
         /// <summary>원격/캐시에서 받은 목록으로 교체. 유효 항목이 없으면 무시.</summary>
-        public static bool Apply(IEnumerable<RaidInfo> raids)
+        public static bool Apply(IEnumerable<RaidInfo> raids, int version)
         {
             var list = raids?
                 .Where(r => r != null &&
@@ -60,6 +66,7 @@ namespace LoaInfo.Homework
                 .ToArray();
             if (list == null || list.Length == 0) return false;
             All = list;
+            CurrentVersion = version;
             return true;
         }
 

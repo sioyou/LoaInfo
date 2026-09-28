@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-09-28",
   "raids": [
     { "id": "belgardin_nm", "group": "belgardin", "name": "벨가르딘", "difficulty": "나이트메어", "minItemLevel": 1780 },
